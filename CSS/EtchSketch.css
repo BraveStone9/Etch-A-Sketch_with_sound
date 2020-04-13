@@ -1,0 +1,74 @@
+html {
+    font-size: 10px;
+    background-color: rgb(4,11,23);   
+    background-size: cover;
+}
+  
+body,html {
+    color: ivory;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    display: block;
+}
+header {
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+    color: ivory;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+.flex-container{
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    top: 2px;    
+}
+
+#Create, #Reset, #GridSize{
+    padding: 5px;
+    font-size: 15px;
+    background: #fbe901;
+    border: none;
+    color: #083517;
+    border-radius: 5px;
+}
+
+#Grid{
+    background-color: grey;
+    position: relative;
+    width: 650px;
+    height: 650px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-flow: column wrap;
+    /* padding-top: 0.5px; */
+    margin-top: 10px;
+    
+}
+
+footer{
+    border-top: 1px solid white;
+    color: ivory;
+    padding-top: 1px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+    display: flex;
+	justify-content: center;
+	position: relative;  
+}
+footer a{
+    color: ivory;
+    font-size: 15px;
+}
+#git-img{
+    position: relative;
+	top: 5px;
+	width: 25px;
+	height: 25px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="CSS/EtchSketch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Etch-a-Sketch</h1>
+    </header>
+    <div class="flex-container">
+        <div>
+            <label for="drop-Down">Grid-Size:</label>
+            <select name="Gride Size" id="GridSize">
+                <option value="10">10x10</option>
+                <option value="16">16x16</option>
+                <option value="28">28x28</option>
+                <option value="32">32x32</option>
+                <option value="64">64x64</option>
+            </select>
+            
+            <button id="Create">Create</button>
+        </div>
+        
+        <button id="Reset">Reset</button>
+    </div>              
+    
+    <div id="Grid"></div>
+
+    <div class="sounds">
+        <audio volume="0.1" class="note"><source src="sounds/boom.wav" type="audio/wav"></audio>
+        <audio volume="0.1" class="note"><source src="sounds/clap.wav" type="audio/wav"></audio>
+        <audio volume="0.1" class="note"><source src="sounds/hihat.wav" type="audio/wav"></audio>
+        <audio volume="0.1" class="note"><source src="sounds/kick.wav" type="audio/wav"></audio>
+        <audio volume="0.1" class="note"><source src="sounds/openhat.wav" type="audio/wav"></audio>
+        <audio volume="0.1" class="note"><source src="sounds/ride.wav" type="audio/wav"></audio>
+        <audio volume="0.1" class="note"><source src="sounds/snare.wav" type="audio/wav"></audio>
+        <audio volume="0.1" class="note"><source src="sounds/tink.wav" type="audio/wav"></audio>
+        <audio volume="0.1" class="note"><source src="sounds/tom.wav" type="audio/wav"></audio>
+
+
+    </div>
+    <footer>
+        <p> Created By:
+            <img src="images/github-icon.png" alt="github-icon" id="git-img">
+            <a href="https://github.com/BraveStone9">BraveStone9</a>
+            &emsp;
+            Hover your mouse over the grid.
+        </p>
+    </footer>
+
+    <script src="JS/EtchSketch.js"></script>
+</body>
+</html>
